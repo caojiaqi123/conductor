@@ -27,7 +27,6 @@ import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.event.EventListener;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpEntity;
-import org.springframework.stereotype.Component;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -38,7 +37,7 @@ import com.netflix.conductor.common.metadata.tasks.TaskDef;
 import static org.springframework.http.HttpHeaders.CONTENT_TYPE;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
-@Component
+// @Component
 public class KitchenSinkInitializer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(KitchenSinkInitializer.class);

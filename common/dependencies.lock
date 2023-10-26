@@ -90,11 +90,17 @@
         "com.fasterxml.jackson.module:jackson-module-afterburner": {
             "locked": "2.13.3"
         },
+        "com.github.rholder:guava-retrying": {
+            "locked": "2.0.0"
+        },
         "com.google.protobuf:protobuf-java": {
             "locked": "3.21.7"
         },
         "com.netflix.conductor:conductor-annotations": {
             "project": true
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1"
         },
         "org.apache.bval:bval-jsr": {
             "locked": "2.0.5"

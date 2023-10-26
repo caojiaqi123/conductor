@@ -4,8 +4,9 @@ configurations {
 
 dependencies {
     implementation project(':conductor-annotations')
+    compileOnly "com.github.rholder:guava-retrying:${revGuavaRetrying}"
     annotationsProcessorCodegen project(':conductor-annotations-processor')
-
+    compileOnly "javax.inject:javax.inject:${revJavaxInject}"
     compileOnly 'org.springframework.boot:spring-boot-starter'
     compileOnly 'org.springframework.boot:spring-boot-starter-validation'
 

@@ -17,6 +17,12 @@
         "com.github.ben-manes.caffeine:caffeine": {
             "locked": "2.9.3"
         },
+        "com.google.inject.extensions:guice-multibindings": {
+            "locked": "4.1.0"
+        },
+        "com.google.inject:guice": {
+            "locked": "4.1.0"
+        },
         "com.google.protobuf:protobuf-java": {
             "locked": "3.21.7"
         },
@@ -102,6 +108,12 @@
         },
         "com.github.ben-manes.caffeine:caffeine": {
             "locked": "2.9.3"
+        },
+        "com.google.inject.extensions:guice-multibindings": {
+            "locked": "4.1.0"
+        },
+        "com.google.inject:guice": {
+            "locked": "4.1.0"
         },
         "com.google.protobuf:protobuf-java": {
             "firstLevelTransitive": [
@@ -202,6 +214,12 @@
         },
         "com.github.ben-manes.caffeine:caffeine": {
             "locked": "2.9.3"
+        },
+        "com.google.inject.extensions:guice-multibindings": {
+            "locked": "4.1.0"
+        },
+        "com.google.inject:guice": {
+            "locked": "4.1.0"
         },
         "com.google.protobuf:protobuf-java": {
             "locked": "3.21.7"
@@ -309,6 +327,12 @@
         },
         "com.github.ben-manes.caffeine:caffeine": {
             "locked": "2.9.3"
+        },
+        "com.google.inject.extensions:guice-multibindings": {
+            "locked": "4.1.0"
+        },
+        "com.google.inject:guice": {
+            "locked": "4.1.0"
         },
         "com.google.protobuf:protobuf-java": {
             "firstLevelTransitive": [

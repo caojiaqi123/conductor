@@ -23,11 +23,15 @@ dependencies {
 
     implementation "commons-io:commons-io:${revCommonsIo}"
 
+    implementation "com.google.inject:guice:${revGuice}"
+    implementation "com.google.inject.extensions:guice-multibindings:${revGuiceMultiBindings}"
+
     implementation "com.google.protobuf:protobuf-java:${revProtoBuf}"
 
     implementation "org.apache.commons:commons-lang3"
 
     implementation "com.fasterxml.jackson.core:jackson-core"
+    implementation "com.fasterxml.jackson.core:jackson-databind"
 
     implementation "com.spotify:completable-futures:${revSpotifyCompletableFutures}"
 

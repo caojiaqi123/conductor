@@ -69,6 +69,18 @@
             ],
             "locked": "2.9.3"
         },
+        "com.google.inject.extensions:guice-multibindings": {
+            "firstLevelTransitive": [
+                "com.netflix.conductor:conductor-core"
+            ],
+            "locked": "4.1.0"
+        },
+        "com.google.inject:guice": {
+            "firstLevelTransitive": [
+                "com.netflix.conductor:conductor-core"
+            ],
+            "locked": "4.1.0"
+        },
         "com.google.protobuf:protobuf-java": {
             "firstLevelTransitive": [
                 "com.netflix.conductor:conductor-common",
@@ -279,6 +291,18 @@
                 "com.netflix.conductor:conductor-core"
             ],
             "locked": "2.9.3"
+        },
+        "com.google.inject.extensions:guice-multibindings": {
+            "firstLevelTransitive": [
+                "com.netflix.conductor:conductor-core"
+            ],
+            "locked": "4.1.0"
+        },
+        "com.google.inject:guice": {
+            "firstLevelTransitive": [
+                "com.netflix.conductor:conductor-core"
+            ],
+            "locked": "4.1.0"
         },
         "com.google.protobuf:protobuf-java": {
             "firstLevelTransitive": [

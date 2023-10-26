@@ -15,6 +15,8 @@
  * Common place to define all the version dependencies
  */
 ext {
+    revJavaxInject = "1"
+    revGuavaRetrying = '2.0.0'
     revActivation = '2.0.0'
     revAwaitility = '3.1.6'
     revAwsSdk = '1.11.86'
@@ -23,7 +25,8 @@ ext {
     revCassandraUnit = '3.11.2.0'
     revCommonsIo = '2.7'
     revDynoQueues = '2.0.20'
-    revElasticSearch6 = '6.8.12'
+//    revElasticSearch6 = '6.8.12'
+    revElasticSearch7 = '7.10.1'
     revEmbeddedRedis = '0.6'
     revEurekaClient = '1.10.10'
     revGroovy = '2.5.22'
@@ -53,4 +56,7 @@ ext {
     revSpock = '1.3-groovy-2.5'
     revSpotifyCompletableFutures = '0.3.3'
     revTestContainer = '1.15.3'
+    revGuice = '4.1.0'
+    revGuiceMultiBindings = '4.1.0'
+    revGuiceServlet = '4.1.0'
 }
